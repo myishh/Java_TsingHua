@@ -9,7 +9,7 @@ Chapter6: Organization of Object Groups</br>
 Chapter7: Graphical User Interface</br>
 
 ## Chapter1: Basic Knowledge of Java</br>
-### Introduction</br>
+### 1.1 Introduction</br>
 1.对于利用计算机程序求解实际问题的顺序是：</br>
 （1）	利用机器进行求解</br>
 （2）	用计算机语言表述问题</br>
@@ -38,49 +38,61 @@ Answer:（1）（2）（3）</br>
 （1）面向对象（2）安全性（3）操作平台无关性（4）多线程（5）内存管理</br>
 Answer:（1）（2）（3）（4）（5）</br>
 
-7.Java语言相比于C，C++的不同之处在于：
-（1）	不支持指针（2）可以手动进行内存管理（3）Java编译器生成的代码与平台相关（4）自动对内存进行管理（5）Java编译器生成的字节码，只要是安装了Java的运行系统其程序就能在不同的处理器上执行
+7.Java语言相比于C，C++的不同之处在于：</br>
+（1）不支持指针（2）可以手动进行内存管理（3）Java编译器生成的代码与平台相关（4）自动对内存进行管理（5）Java编译器生成的字节码，只要是安装了Java的运行系统其程序就能在不同的处理器上执行</br>
+Answer:（1）（4）（5）</br>
 
-（1）（2）（3） （1）（3）（4） （1）（4）（5） （1）（4）（5） - 正确 （1）（2）（5）
+8.关于Java程序的执行过程，以下选项中，正确的是</br>
+（1）编写.java程序（2）解释器对.java文件进行解释执行（3）编译器将.java文件编译成.class文件（4）解释器对.class文件进行解释执行</br>
+Answer:（1）->（3）->（4）</br>
 
-8.关于Java程序的执行过程，以下选项中，正确的是
-（1）	编写.java程序（2）解释器对.java文件进行解释执行（3）编译器将.java文件编译成.class文件（4）解释器对.class文件进行解释执行
+9.Java的主要优点是（BC）</br>
+A.直接操作内存，功能强大 </br>
+B.一次编译，到处运行 </br>
+C.纯面向对象的语言 </br>
+D.可以通过拖拽的方式快速开发用户界面</br>
 
-（1）->（2） （1）->（3）->（4） （1）->（3）->（4） - 正确 （1）-> （3）->（2） （1）->（2）->（3）->（4）
+10.	下面有关JAVA代码安全性的叙述错误的是（A）</br>
+A.字节码校验器加载查询执行所需的所有类 </br>
+B.运行时由解释器执行代码</br>
+C.运行时，字节码被加载，验证，然后在解释器中执行 </br>
+D.类加载器通过分离本机文件系统的类和从网络导入的类增加安全性</br>
+<b>Explaination: 校验器是校验用的，加载肯定是类加载器做的</b>。Java 程序运行的过程是这样的：类加载器（class loader）加载程序运行所需要的所有类，它通过区分本机文件系统的类和网络系统导入的类增加安全性，这可以限制任何的特洛伊木马程序，因为本机类总是先被加载，一旦所有的类被加载完，执行文件的内存划分就固定了，在这个时候特定的内存地址被分配给对应的符号引用，查找表（lookuo table）也被建立，由于内存划分发生在运行时，解释器在受限制的代码区增加保护防止未授权的访问；然后字节码校验器（byte code verifier）进行校验，主要执行下面的检查：类符合 JVM 规范的类文件格式，没有违反访问限制，代码没有造成堆栈的上溢或者下溢，所有操作代码的参数类型都是正确的，解释器在必要时通过运行时系统执行对底层硬件的合适调用。</br>
 
-9.Java的主要优点是（）
-一次编译，到处运行, 纯面向对象的语言, - 正确 直接操作内存，功能强大 一次编译，到处运行 纯面向对象的语言 可以通过拖拽的方式快速开发用户界面
+11.编译JAVA源程序文件时将产生相应的字节码文件，这些字节码文件的扩展名为（B）</br>
+A.java </br>
+B.class</br>
+C.html </br>
+D.exe</br>
 
-10.	下面有关JAVA代码安全性的叙述错误的是（）
-字节码校验器加载查询执行所需的所有类 运行时由解释器执行代码 运行时由解释器执行代码 - 不正确 运行时，字节码被加载，验证，然后在解释器中执行 类加载器通过分离本机文件系统的类和从网络导入的类增加安全性
+12.下面说法正确的是（C）</br>
+A.JAVA程序的源文件名称与主类的名称相同，后缀可为.java或者.txt</br> 
+B.JDK的编译命令为java </br>
+C.一个JAVA源程序编译后，可能产生几个字节码文件</br>
+D.在DOS命令行下编译好字节码文件后，只需输入程序名即可运行该程序</br>
 
-11.编译JAVA源程序文件时将产生相应的字节码文件，这些字节码文件的扩展名为（）
-java class class - 正确 html exe
+13.Java应用程序执行入口的main()方法返回类型是(B)</br>
+A.int </br>
+B.void</br>
+C.boolean </br>
+D.staic</br>
 
-12.下面说法正确的是（）
-JAVA程序的源文件名称与主类的名称相同，后缀可为.java或者.txt JDK的编译命令为java 一个JAVA源程序编译后，可能产生几个字节码文件 一个JAVA源程序编译后，可能产生几个字节码文件 - 正确 在DOS命令行下编译好字节码文件后，只需输入程序名即可运行该程序
+14.某Java程序的类定义如下：</br>
+public class MyClass{}</br>
+则该java源文件在存盘时其文件名应当为</br>
+A.myclass.java </br>
+B.MyClass.java </br>
+C.MYCLASS.java </br>
+D.MyClass.class</br>
 
-13.Java应用程序执行入口的main()方法返回类型是()
-int void void - 正确 boolean staic
-
-14.某Java程序的类定义如下：
-public class MyClass{}
-
-则该java源文件在存盘时其文件名应当为
-
-myclass.java MyClass.java MyClass.java - 正确 MYCLASS.java MyClass.class
-
-15.设HelloWord的代码为：
-Class HelloWord{
-
-public void main(String a[]){
-
-System.out.println(“hello world”);
-
-}
-
-}
-
-下面说法正确的是：
-
-HelloWord.java无法通过编译，因为main方法的声明方式不对 HelloWord.java可以通过编译，但是运行该程序会出现异常，不会打印HelloWorld HelloWord.java可以通过编译，但是运行该程序会出现异常，不会打印HelloWorld - 正确 HelloWord.java可以通过编译，但是无法运行，因为该文件没有public类 HelloWorld.java可以通过编译并正常运行，结果输出hello world
+15.设HelloWord的代码为：</br>
+Class HelloWord{</br>
+  public void main(String a[]){</br>
+    System.out.println(“hello world”);</br>
+  }</br>
+}</br>
+下面说法正确的是：(B)</br>
+A.HelloWord.java无法通过编译，因为main方法的声明方式不对 </br>
+B.HelloWord.java可以通过编译，但是运行该程序会出现异常，不会打印HelloWorld</br>
+C.HelloWord.java可以通过编译，但是无法运行，因为该文件没有public类 </br>
+D.HelloWorld.java可以通过编译并正常运行，结果输出hello world</br>
