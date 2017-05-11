@@ -86,3 +86,128 @@ A.HelloWord.java无法通过编译，因为main方法的声明方式不对 </br>
 B.HelloWord.java可以通过编译，但是运行该程序会出现异常，不会打印HelloWorld</br>
 C.HelloWord.java可以通过编译，但是无法运行，因为该文件没有public类 </br>
 D.HelloWorld.java可以通过编译并正常运行，结果输出hello world</br>
+
+### 1.2 Basic Data Types and Expressions
+单选题  (15 满分)
+1.在Java程序中，下面哪个是不合法的标志符（A）
+A.2D   B.True  C._name  D.T1
+
+2.以下哪些变量的声明是合法的：(C)
+(1)	try
+(2)	_try1231
+(3)	$Try_*
+(4)	4_try
+(5)	#_try
+(6)	$try_1_for
+A.（1）（2）（3） 
+B.（1）（2）（4） 
+C.（2）（6） 
+D.（1）（2）（6）
+
+3.下列（B）不属于Java的基本数据类型
+A.int   B.String  C.double   D.boolean
+
+4.Sytem.out.println(“1”+2)打印到屏幕的结果是：(B)
+A.3   B.12  C.1+2  D.4
+
+5.下面（A）是不合法的变量名称
+A.While-true  B.True   C.Name  D.T1
+
+6.在某个main()方法中有以下代码：
+String s1,s2;
+int[] numbers;
+int num;
+num=15;
+boolean b=false;
+下面哪个说法是正确的（C）
+A.声明了1个基本类型变量和2个引用变量 
+B.声明了2个基本类型变量和2个引用变量 
+C.声明了2个基本类型变量和3个引用变量 
+D.声明了3个基本类型变量和3个引用变量
+
+7.关于java中变量或者常量的说法正确的是：(B)
+（1）	常量一旦被初始化就不能被改变。
+（2）	变量是由一个标识符命名的量
+（3）	变量的值可以改变
+（4）	常量的值可以被改变
+（5）	变量可以不存在类型
+A.（1）（2）（3）（4） 
+B.（1）（2）（3） 
+C.（2）（3）（4） 
+D.（1）（2）（4）（5）
+
+8.关于数据类型的声明，以下声明正确的是：(B)
+（1）	byte a = 129
+（2）	long b = 129F
+（3）	float c = 1.234F
+（4）	short d = 1.2
+（5）	boolean e = true
+（6）	float f = 1.234D
+A.（1）（3）（4）（5） 
+B.（3）（5） 
+C.（2）（3）（6） 
+D.（1）（5）（6）
+
+9.如果想要文字量的的实际内容是 “I’m very interested in java Programming” （包含””），以下文字量声明正确的是：(C)
+A.string str = “I’m very interested in java Programming” 
+B.string str = \“I\’m very interested in java Programming\” 
+C.string str = “\“I\’m very interested in java Programming\”” 
+D.string str = “I\’m very interested in java Programming”
+
+10.变量i的值为4，下列操作能够得到变量a的值为3的是：(C)
+（1）	a = i--
+（2）	a = --i
+（3）	a = 15%4
+（4）	a = 14 / 4
+（5）	a = (i^=7)
+A.（1）（2）（3）（4）（5） 
+B.（1）（3）（4）（5） 
+C.（2）（3）（4）（5） 
+D.（2）（3）（4）
+
+11.某个main()方法中有以下声明：
+final int min=0;
+final int max = 10;
+int num=5;
+下列哪个语句可以用来表示“num的值大于等于min且小于等于max”（B）
+A.!( num < min && num > max) 
+B.num >=min && num <=max 
+C.num > min || num <=max 
+D.num >=min || num<=max
+
+12.下面不属于Java中的位操作符的是：(D)
+（1）	~
+（2）	&
+（3）	^
+（4）	<<
+（5）	>>
+（6）	&&
+（7）	||
+（8）	|
+（9）	>>>
+A.（1）（6）（7）（9） 
+B.（6）（7）（9） 
+C.（2）（3）（6） 
+D.（6）（7）
+
+13.以下哪段代码可以将A,B的值互换（A）
+A)A=A^B; B=A^B; A=A^B 
+B)A=A^B; A=A^B; B=A^B 
+C)B=A^B; B=A^B; A=A^B 
+D)B=A^B; A=A^B; A=A^B
+
+14.对于i=1，下列三目运算符的结果为10的是：(A)
+A.(i &4) ==0 ? 10:9 
+B.(i^3) > 2? 10:9 
+C.(i>>2) >0 ? 10:9 
+D.((i | 10)) & 9 >10 ?10:9
+
+15.在以下转换中，分别属于哪种类型:(B)
+int a=3; long b = a 
+double a=3.1415926; float b = a; 
+int a=3; String b = a+"1"; 
+float a=3.5; int b=(int)a 
+A.(1)扩展转换(2)强制转换(3)隐含转换(4)窄化转换 
+B.(1)扩展转换(2)窄化转换(3)隐含转换(4)强制转换 
+C.(1)隐含转换(2)窄化转换(3)扩展转换(4)强制转换 
+D.(1)窄化转换(2)扩展转换(3)强制转换(4)隐含转换
