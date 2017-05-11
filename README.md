@@ -1,6 +1,6 @@
 # Java_Programming_TsingHuaUniversity
 ## Table of Contents
-Chapter1: Basic language</br>
+### Chapter1: Basic language</br>
 Chapter2: Class & Object</br>
 Chapter3: Reuse of Classes</br>
 Chapter4: Interface & Polymorphism</br>
