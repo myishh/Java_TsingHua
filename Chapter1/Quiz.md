@@ -1,5 +1,5 @@
-## Chapter1: Basic Knowledge of Java</br>
-### 1.1 Introduction</br>
+# Chapter1: Basic Knowledge of Java</br>
+## 1.1 Introduction</br>
 1.对于利用计算机程序求解实际问题的顺序是：</br>
 （1）	利用机器进行求解</br>
 （2）	用计算机语言表述问题</br>
@@ -87,22 +87,21 @@ B.HelloWord.java可以通过编译，但是运行该程序会出现异常，不�
 C.HelloWord.java可以通过编译，但是无法运行，因为该文件没有public类 </br>
 D.HelloWorld.java可以通过编译并正常运行，结果输出hello world</br>
 
-### 1.2 Basic Data Types and Expressions
-单选题  (15 满分)
-1.在Java程序中，下面哪个是不合法的标志符（A）
-A.2D   B.True  C._name  D.T1
+## 1.2 Basic Data Types and Expressions
+1.在Java程序中，下面哪个是不合法的标志符（A）</br>
+A.2D   B.True  C._name  D.T1</br>
 
-2.以下哪些变量的声明是合法的：(C)
-(1)	try
-(2)	_try1231
-(3)	$Try_*
-(4)	4_try
-(5)	#_try
-(6)	$try_1_for
-A.（1）（2）（3） 
-B.（1）（2）（4） 
-C.（2）（6） 
-D.（1）（2）（6）
+2.以下哪些变量的声明是合法的：(C)</br>
+(1)	try</br>
+(2)	_try1231</br>
+(3)	$Try_*</br>
+(4)	4_try</br>
+(5)	#_try</br>
+(6)	$try_1_for</br>
+A.（1）（2）（3） </br>
+B.（1）（2）（4） </br>
+C.（2）（6） </br>
+D.（1）（2）（6）</br>
 
 3.下列（B）不属于Java的基本数据类型
 A.int   B.String  C.double   D.boolean
