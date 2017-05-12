@@ -1,6 +1,5 @@
 /*
-字符串排序
-
+字符串排序(Sort Strings)
 用Java编写一个能对一组字符串按字典序升序排序的程序 输入为N和N行字符串，需要按行输出字符串升序排序的结果 如输入
 3
 Abc
@@ -10,7 +9,6 @@ Abd
 Abc
 Abd
 Abe
-
 */
 
 import java.util.ArrayList;
@@ -34,7 +32,7 @@ public class Main {
                         list.add(str);       
                 }
                 sc.close();
-
+                //本段代码的核心部分(Core part of this code)
                 Collections.sort(list, new Comparator<String>() {
 
                         @Override
