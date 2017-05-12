@@ -68,7 +68,7 @@ A)str1==str2 </br>
 B)str1==str4 </br>
 C)str2==str3 </br>
 D)str3==str4</br>
-解析：StringBuffer不能跟String比较；采用不同形式创建的String即便内容一样，引用指向也不一样；但是采用同一方法创建的String，如果内容一样，则引用指向也是一样的</br>
+解析：StringBuffer不能跟String比较；采用不同形式创建的String即便内容一样，引用指向也不一样；但是采用同一方法创建的String，如果内容一样，则引用指向也是一样的（这么做估计是为了节省memory）</br>
 
 ### 7.下列声明二维数组的语句不合法的是（）</br>
 A)char c[][] = new char[2][3]; </br>
