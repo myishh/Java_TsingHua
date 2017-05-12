@@ -89,10 +89,10 @@ D.HelloWorld.java可以通过编译并正常运行，结果输出hello world</br
 
 ## 1.2 Basic Data Types and Expressions
 1.在Java程序中，下面哪个是不合法的标志符（A）</br>
-A.2D   </br>
-B.True  </br>
-C._name  </br>
-D.T1</br>
+A)2D   </br>
+B)True  </br>
+C)_name  </br>
+D)T1</br>
 解析：标识符的第一个字符必须是下列字符之一：大写字母 (A-Z)、小写字母 (a-z)、下划线(_)、美元符号 ($)。而标识符的第二个字符及后继字符必须是：上述列表中的任意字符、数字字符 (0-9)</br>
 
 2.以下哪些变量的声明是合法的：(C)</br>
