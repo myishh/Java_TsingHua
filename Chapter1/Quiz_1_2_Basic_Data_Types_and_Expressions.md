@@ -22,7 +22,7 @@ D.(1)(2)(6)</br>
 ### 3.下列（B）不属于Java的基本数据类型</br>
 A)int</br>
 B)String </br>
-C)double </br>  
+C)double </br>
 D)boolean</br>
 
 ### 4.Sytem.out.println(“1”+2)打印到屏幕的结果是：(B)</br>
