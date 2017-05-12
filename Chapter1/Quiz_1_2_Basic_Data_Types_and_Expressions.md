@@ -20,15 +20,15 @@ D.(1)(2)(6)</br>
 解析：(1)try是保留字，(3)含有非法字符"\*" (4)以数字开头 (5)含有非法字符#
 
 ### 3.下列（B）不属于Java的基本数据类型</br>
-A)int   </br>
-B)String  </br>
+A)int</br>
+B)String </br>
 C)double </br>  
 D)boolean</br>
 
 ### 4.Sytem.out.println(“1”+2)打印到屏幕的结果是：(B)</br>
-A)3   </br>
-B)12  </br>
-C)1+2 </br> 
+A)3</br>
+B)12</br>
+C)1+2</br> 
 D)4</br>
 
 ### 5.下面（A）是不合法的变量名称</br>
