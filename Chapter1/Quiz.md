@@ -109,13 +109,22 @@ D.(1)(2)(6)</br>
 解析：(1)try是保留字，(3)含有非法字符* (4)以数字开头 (5)含有非法字符#
 
 3.下列（B）不属于Java的基本数据类型</br>
-A.int   B.String  C.double   D.boolean</br>
+A)int   
+B)String  
+C)double   
+D)boolean</br>
 
 4.Sytem.out.println(“1”+2)打印到屏幕的结果是：(B)</br>
-A.3   B.12  C.1+2  D.4</br>
+A)3   
+B)12  
+C)1+2  
+D)4</br>
 
 5.下面（A）是不合法的变量名称</br>
-A.While-true  B.True   C.Name  D.T1</br>
+A)While-true  
+B)True   
+C)Name  
+D)T1</br>
 
 6.在某个main()方法中有以下代码：</br>
 String s1,s2;</br>
@@ -124,10 +133,10 @@ int num;</br>
 num=15;</br>
 boolean b=false;</br>
 下面哪个说法是正确的（C）</br>
-A.声明了1个基本类型变量和2个引用变量</br> 
-B.声明了2个基本类型变量和2个引用变量 </br>
-C.声明了2个基本类型变量和3个引用变量 </br>
-D.声明了3个基本类型变量和3个引用变量</br>
+A)声明了1个基本类型变量和2个引用变量</br> 
+B)声明了2个基本类型变量和2个引用变量 </br>
+C)声明了2个基本类型变量和3个引用变量 </br>
+D)声明了3个基本类型变量和3个引用变量</br>
 
 7.关于java中变量或者常量的说法正确的是：(B)</br>
 （1）	常量一旦被初始化就不能被改变。</br>
