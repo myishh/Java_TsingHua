@@ -224,3 +224,83 @@ A.(1)扩展转换(2)强制转换(3)隐含转换(4)窄化转换</br>
 B.(1)扩展转换(2)窄化转换(3)隐含转换(4)强制转换 </br>
 C.(1)隐含转换(2)窄化转换(3)扩展转换(4)强制转换 </br>
 D.(1)窄化转换(2)扩展转换(3)强制转换(4)隐含转换</br>
+
+## 1.3 Arrays
+1.关于Java中数组的说法正确的是:
+（1）数组可以动态初始化
+（2）数组可以赋值给Object类型的对象
+（3）数组创建以后，其长度可以修改
+（4）数组可以调用Object类的所有方法
+A.(1)(2)(3)(4)
+B.(1)(2)(4) 
+C.(2)(3)(4) 
+D.(2)(4)
+Explaination: Length of array can not be changed or assigned after the array being created.
+
+2.对于数组的声明与使用，下列说法正确的是:
+对于声明 String str[];
+（1）上述声明错误，声明必须指定数组元素的个数
+（2）上述声明正确，声明时，无须指定数组元素的格式
+（3）上述声明完成后，java就给str的数组元素分配了内存
+（4）上述声明完成后，java没给str的数组元素分配内存
+（5）上述声明完成后，数组名可以直接使用，给指定数组元素赋值
+（6）上述声明完成后，数组名不能直接使用，需要初始化后才能使用
+A.(1)(4)(6) 
+B.(2)(4)(6)
+C.(1)(3)(6) 
+D.(1)(4)(5)
+
+3.对于数组的使用，以下做法正确的是:
+（1）	int a[]={1,2,3}
+（2）	int a[10]=new int[10]; a[10]=1;a[1]=1;
+（3）	int a[10]={1,”2”,3};
+（4）	int a[10]; a[1]=0
+A.(1)(2)(4) 
+B.(1)(4) 
+C.(1)(3)(4) 
+D.(1)
+
+4.关于二维数组的创建，以下做法正确的是：
+（1）int a[][] =new int[4][5];
+（2）int a[][] =new int[4][]; a[0]=new int[10];a[1]=new int[20];
+（3）int a[][]; a=new int[3][]; a[0]=new int[3]; a[1]={1,2};a[2]={1,2,3};
+A.(1)(2)(3) 
+B.(1)(2) 
+C.(1)(3) 
+D.(1)
+
+5.关于下面的程序，哪个结论是正确的（）
+
+public class Test{
+
+public static void main(String args[]){
+
+int a[]=new int[5];
+
+a.length = 10;
+
+System.out.println(a.length)
+
+}
+
+}
+
+程序可以通过编译并正常运行，输出结果为10 程序可以通过编译，并正常运行，输出结果为5 程序无法通过编译 程序无法通过编译 - 正确 程序可以通过编译，但无法正常运行
+
+6.	对于下列代码
+
+String str1=”java”;
+
+String str2=”java”;
+
+String str3 = new String(“java”);
+
+StringBuffer str4 = new StringBuffer(“java”);
+
+以下表达式的值为true的是（）
+
+str1==str2 str1==str2 - 正确 str1==str4 str2==str3 str3==str4
+
+7.	下列声明二维数组的语句不合法的是（）
+
+char c[][] = new char[2][3]; char c[][]=new char[6][]; char[][] c= new char[3][3]; char [][] c = new char[][4] char [][] c = new char[][4] - 正确
