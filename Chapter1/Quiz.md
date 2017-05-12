@@ -109,21 +109,21 @@ D.(1)(2)(6)</br>
 解析：(1)try是保留字，(3)含有非法字符* (4)以数字开头 (5)含有非法字符#
 
 3.下列（B）不属于Java的基本数据类型</br>
-A)int   
-B)String  
-C)double   
+A)int   </br>
+B)String  </br>
+C)double </br>  
 D)boolean</br>
 
 4.Sytem.out.println(“1”+2)打印到屏幕的结果是：(B)</br>
-A)3   
-B)12  
-C)1+2  
+A)3   </br>
+B)12  </br>
+C)1+2 </br> 
 D)4</br>
 
 5.下面（A）是不合法的变量名称</br>
-A)While-true  
-B)True   
-C)Name  
+A)While-true  </br>
+B)True   </br>
+C)Name  </br>
 D)T1</br>
 
 6.在某个main()方法中有以下代码：</br>
@@ -162,10 +162,10 @@ C.（2）（3）（6） </br>
 D.（1）（5）（6）</br>
 
 9.如果想要文字量的的实际内容是 “I’m very interested in java Programming” （包含””），以下文字量声明正确的是：(C)</br>
-A.string str = “I’m very interested in java Programming” </br>
-B.string str = \“I\’m very interested in java Programming\” </br>
-C.string str = “\“I\’m very interested in java Programming\”” </br>
-D.string str = “I\’m very interested in java Programming”</br>
+A)string str = “I’m very interested in java Programming” </br>
+B)string str = \“I\’m very interested in java Programming\” </br>
+C)string str = “\“I\’m very interested in java Programming\”” </br>
+D)string str = “I\’m very interested in java Programming”</br>
 
 10.变量i的值为4，下列操作能够得到变量a的值为3的是：(C)</br>
 （1）	a = i--</br>
