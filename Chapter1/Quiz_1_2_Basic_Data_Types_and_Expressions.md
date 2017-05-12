@@ -26,7 +26,7 @@ B)String </br>
 C)double </br>
 D)boolean</br>
 
-### 4.Sytem.out.println(“1”+2)打印到屏幕的结果是：(B)</br>
+### 4.Sytem.out.println(“1”+2)打印到屏幕的结果是(B)</br>
 A)3</br>
 B)12</br>
 C)1+2</br> 
