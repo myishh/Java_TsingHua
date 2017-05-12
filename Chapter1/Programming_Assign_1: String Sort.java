@@ -21,18 +21,20 @@ import java.util.Scanner;
 public class Main {
 
         public static void main(String[] args) {
+                
                 List<String> list = new ArrayList<>();
                 Scanner sc = null;
                 sc= new Scanner(System.in);
                 int num = sc.nextInt();
-//              System.out.println("請輸入數據");
+//              System.out.println("Enter strings: ");
                 for(int i = 0; i < num; i++)        {
                         sc = new Scanner(System.in);
                         String str = sc.nextLine();
                         list.add(str);       
                 }
                 sc.close();
-                //本段代码的核心部分(Core part of this code)
+                
+                //核心部分(Core part of this code)
                 Collections.sort(list, new Comparator<String>() {
 
                         @Override
@@ -40,7 +42,7 @@ public class Main {
                                 return arg0.compareTo(arg1);
                         }        
                 });
-                        
+                //output sorted strings
                 for(String str1 : list) {
                         System.out.println(str1);
                 }
