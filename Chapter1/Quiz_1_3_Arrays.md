@@ -1,3 +1,4 @@
+# Chapter1: Basic Knowledge of Java</br>
 ## 1.3 Arrays
 ### 1.关于Java中数组的说法正确的是(B)</br>
 （1）数组可以动态初始化</br>
