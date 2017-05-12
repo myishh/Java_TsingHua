@@ -12,3 +12,40 @@ Abd
 Abe
 
 */
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Scanner;
+
+
+public class Main {
+
+        public static void main(String[] args) {
+                List<String> list = new ArrayList<>();
+                Scanner sc = null;
+                sc= new Scanner(System.in);
+                int num = sc.nextInt();
+//              System.out.println("請輸入數據");
+                for(int i = 0; i < num; i++)        {
+                        sc = new Scanner(System.in);
+                        String str = sc.nextLine();
+                        list.add(str);       
+                }
+                sc.close();
+
+                Collections.sort(list, new Comparator<String>() {
+
+                        @Override
+                        public int compare(String arg0, String arg1) {
+                                return arg0.compareTo(arg1);
+                        }        
+                });
+                        
+                for(String str1 : list) {
+                        System.out.println(str1);
+                }
+        }
+}
+
