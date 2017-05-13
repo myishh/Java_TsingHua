@@ -15,7 +15,8 @@ public class Fiboracci {
 		Scanner innum = null;
 		innum = new Scanner(System.in);
 		int num = innum.nextInt();		
-		System.out.println(Fib(num));			
+		System.out.println(Fib(num));	//using the recursion method
+		System.out.println(Fib_A(num)); //using the accumulation method
 	}
 	
 	//Recursion, but it is a pretty costy method
@@ -30,7 +31,7 @@ public class Fiboracci {
 			} 
 	}
 	//Accumulation, performance is better than the recursion one
-	public static int Fib_A(){
+	public static int Fib_A(int n){
 		if (n < 2){
 			return 1;
 		} else if (n == 2) {
