@@ -19,7 +19,7 @@ public class Fiboracci {
 		System.out.println(Fib_I(num)); //using the accumulation method
 	}
 	
-	//Recursion, but it is a pretty costy method
+	//Recursion, but it is a pretty costy and low-efficent method
 	public static int Fib(int n){
 		if( n < 0) return 0;
 			if(n >= 2 ){
@@ -44,6 +44,22 @@ public class Fiboracci {
 			n2 = sn;
 		}
 		return sn;
+	}
+	
+	//Array, need more memory than iteration
+	public static int Fib_A(int n){
+		if (n < 2){
+			return 1;
+		} else if (n == 2) {
+			return 2;
+		}
+		int[] arr = new int[n+1];
+		arr[0] = 1;
+		arr[1] = 1;
+		for(int i = 2; i <= n; i++){
+			arr[i] = arr[i-1] + arr[i-2];
+		}
+		return arr[n];
 	}
 	
 	
