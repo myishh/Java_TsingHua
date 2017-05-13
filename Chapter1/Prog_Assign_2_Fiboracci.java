@@ -7,7 +7,7 @@
 */
 
 import java.util.Scanner;
-
+//Three methods could be used: recursion, iteration, array
 public class Fiboracci {
 
 	public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class Fiboracci {
 		innum = new Scanner(System.in);
 		int num = innum.nextInt();		
 		System.out.println(Fib(num));	//using the recursion method
-		System.out.println(Fib_A(num)); //using the accumulation method
+		System.out.println(Fib_I(num)); //using the accumulation method
 	}
 	
 	//Recursion, but it is a pretty costy method
@@ -30,8 +30,8 @@ public class Fiboracci {
 				return 1;
 			} 
 	}
-	//Accumulation, performance is better than the recursion one
-	public static int Fib_A(int n){
+	//Iteration, performance is better than the recursion one
+	public static int Fib_I(int n){
 		if (n < 2){
 			return 1;
 		} else if (n == 2) {
@@ -45,6 +45,7 @@ public class Fiboracci {
 		}
 		return sn;
 	}
+	
 	
 }
 
