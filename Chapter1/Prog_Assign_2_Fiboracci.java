@@ -16,7 +16,8 @@ public class Fiboracci {
 		innum = new Scanner(System.in);
 		int num = innum.nextInt();		
 		System.out.println(Fib(num));	//using the recursion method
-		System.out.println(Fib_I(num)); //using the accumulation method
+		System.out.println(Fib_I(num)); //using the iteration method
+		System.out.println(Fib_A(num));	//using the array method
 	}
 	
 	//Recursion, but it is a pretty costy and low-efficent method
