@@ -18,6 +18,7 @@ public class Fiboracci {
 		System.out.println(Fib(num));			
 	}
 	
+	//Recursion, but it is a pretty costy method
 	public static int Fib(int n){
 		if( n < 0) return 0;
 			if(n >= 2 ){
@@ -27,7 +28,23 @@ public class Fiboracci {
 			} else  {
 				return 1;
 			} 
-		} 
+	}
+	//Accumulation, performance is better than the recursion one
+	public static int Fib_A(){
+		if (n < 2){
+			return 1;
+		} else if (n == 2) {
+			return 2;
+		}
+		int n1 = 1, n2 = 1, sn = 0;
+		for(int i = 0; i <= n - 2; i++) {
+			sn = n1 + n2;
+			n1 = n2;
+			n2 = sn;
+		}
+		return sn;
+	}
+	
 }
 
 /* f(1) = f(0) = 1;
