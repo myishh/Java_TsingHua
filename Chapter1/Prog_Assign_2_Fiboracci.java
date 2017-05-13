@@ -48,11 +48,6 @@ public class Fiboracci {
 	
 	//Array, need more memory than iteration
 	public static int Fib_A(int n){
-		if (n < 2){
-			return 1;
-		} else if (n == 2) {
-			return 2;
-		}
 		int[] arr = new int[n+1];
 		arr[0] = 1;
 		arr[1] = 1;
