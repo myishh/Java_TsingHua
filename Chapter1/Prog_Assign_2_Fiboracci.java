@@ -58,7 +58,7 @@ public class Fiboracci {
 		return arr[n];
 	}
 	
-	//Formula
+	//Formula: Fib(n) = [(1+√5)^n/2^n - (1-√5)^n/2^n]/√5
 	public static int Fib_F(int n){
 		return (Math.pow((1+Math.sqrt(5))/2, n+1) - Math.pow((1-Math.sqrt(5))/2, n+1))/Math.sqrt(5);
 	}
