@@ -7,7 +7,7 @@
 */
 
 import java.util.Scanner;
-//Three methods could be used: recursion, iteration, array
+//Four methods could be used: recursion, iteration, array, formula
 public class Fiboracci {
 
 	public static void main(String[] args) {
@@ -58,6 +58,10 @@ public class Fiboracci {
 		return arr[n];
 	}
 	
+	//Formula
+	public static int Fib_F(int n){
+		return (Math.pow((1+Math.sqrt(5))/2, n+1) - Math.pow((1-Math.sqrt(5))/2, n+1))/Math.sqrt(5);
+	}
 	
 }
 
