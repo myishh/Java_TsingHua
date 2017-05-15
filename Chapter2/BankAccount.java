@@ -18,7 +18,7 @@ public class BankAccount {
 		accountNumber = ++LAST_ACCOUNT_NUMBER;
 		balance = initBal;
 	}
-	//Èç¹ûĞèÒªÉú³ÉÒ»Ğ©ÌØÊâµÄÑùÀıÕË»§£¬¿ÉÒÔÉùÃ÷Àà·½·¨£¬Éú³ÉÌØÊâµÄ	ÊµÀı
+	//å¦‚æœéœ€è¦ç”Ÿæˆä¸€äº›ç‰¹æ®Šçš„æ ·ä¾‹è´¦æˆ·ï¼Œå¯ä»¥å£°æ˜ç±»æ–¹æ³•ï¼Œç”Ÿæˆç‰¹æ®Šçš„å®ä¾‹
 	public static BankAccount example1(){
 		BankAccount ba = new BankAccount();
 		ba.setOwnerName("Li Dakang");
@@ -53,17 +53,17 @@ public class BankAccount {
 	public void setOwnerName(String newName){
 		ownerName = newName;
 	}
-	//ĞŞ¸Ä¹¹Ôì·½·¨£¬È¡ÏûÕÊºÅ²ÎÊı, ²»ÔÊĞíÖ±½ÓĞŞ¸ÄÕËºÅ£¬È¡ÏûsetAccountNumber·½·¨
+	//ä¿®æ”¹æ„é€ æ–¹æ³•ï¼Œå–æ¶ˆå¸å·å‚æ•°, ä¸å…è®¸ç›´æ¥ä¿®æ”¹è´¦å·ï¼Œå–æ¶ˆsetAccountNumberæ–¹æ³•
 /*	public void setAccountNumber(int newNum){
 		accountNumber = newNum;
 	}																*/
-	//È¡ÏûsetBalance·½·¨£¬½öÍ¨¹ı´æÈ¡¿îÔÚ²Ù×÷¸Ä±äÓà¶î
+	//å–æ¶ˆsetBalanceæ–¹æ³•ï¼Œä»…é€šè¿‡å­˜å–æ¬¾åœ¨æ“ä½œæ”¹å˜ä½™é¢
 /*	public void setBalance(float newBalance){
 		balance = newBalance;
 	}																*/
 	
 	//update1: override toString()
-	//update3: revise balance format using DecimalFormat£¬Ö»±£Áô2Î»Ğ¡Êı
+	//update3: revise balance format using DecimalFormatï¼Œåªä¿ç•™2ä½å°æ•°
 	public String toString(){
 		return("Account#:" + 
 				new java.text.DecimalFormat("000000").format(accountNumber) + 
