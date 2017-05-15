@@ -1,5 +1,3 @@
-package Chapter2_ClassAndObject;
-
 public class BankAccount {
 	
 	private static int LAST_ACCOUNT_NUMBER = 0;
@@ -80,7 +78,5 @@ public class BankAccount {
 		if(anAmount <= balance)
 		balance -= anAmount;
 		return anAmount;
-	}
-	
-	
+	}	
 }
