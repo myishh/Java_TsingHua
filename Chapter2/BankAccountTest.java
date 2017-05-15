@@ -1,5 +1,3 @@
-package Chapter2_ClassAndObject;
-
 public class BankAccountTest {
 	public static void main(String[] args) {
 		//1st test
@@ -37,6 +35,4 @@ public class BankAccountTest {
 		System.out.println(biffsAccount);
 		
 	}
-	
-
 }
