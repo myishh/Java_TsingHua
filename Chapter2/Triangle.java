@@ -1,4 +1,3 @@
-package Chapter2_HW;
 import java.util.Scanner;
 
 public class Triangle {
@@ -40,7 +39,7 @@ public class Triangle {
 		double x, y, z, max;
 		Scanner in = new Scanner(System.in);
 		
-		//ÕâÀïÈç¹û²»¼ÓÉÏ" = null"£¬×îºóprintµÄÊ±ºò»áÌáÊ¾
+		//è¿™é‡Œå¦‚æœä¸åŠ ä¸Š" = null"ï¼Œæœ€åprintçš„æ—¶å€™ä¼šæç¤º"local variable may not have been initialized"
 		Triangle t1 = null;
 		x = in.nextDouble();
 		y = in.nextDouble();
